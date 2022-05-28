@@ -4,7 +4,7 @@ class DriverController(DriverOperation) :
     def menolak_pesanan (self) -> None :
         print ("Driver menolak pesanan karena lokasi tidak terjangkau") 
     
-    def mengantar_pesanan (self) -> None :
+    def mengantarkan_pesanan (self) -> None :
         print ("Driver mengantar pesanan dari penjual ke pembeli") 
     
     
