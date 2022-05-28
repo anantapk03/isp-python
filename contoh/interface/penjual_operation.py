@@ -1,13 +1,13 @@
 from penolakan_operation import PenolakanOperation
 from abc import ABC, abstractmethod
 
-class DriverOperation(PenolakanOperation, ABC):
+class PenjualOperation(PenolakanOperation, ABC):
     
     @abstractmethod
     def menolak_pesanan(self) -> None:
-        #super().menolak_pesanan()
         pass
-    
+        #super().menolak_pesanan()
+        
     @abstractmethod
-    def mengantarkan_pesanan(self) -> None:
+    def menyiapkan_pesanan(self) -> None:
         pass
