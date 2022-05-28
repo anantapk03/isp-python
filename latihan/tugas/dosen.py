@@ -1,4 +1,4 @@
-from interface.tugas_dosen import TugasDosen
+from interface.tugas_dosen import TugasDosen 
 
 class Dosen(TugasDosen):
     

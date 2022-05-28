@@ -1,4 +1,4 @@
-from interface.tugas_mahasiswa import TugasMahasiswa
+from interface.tugas_mahasiswa import TugasMahasiswa 
 
 class Mahasiswa (TugasMahasiswa) :
     
